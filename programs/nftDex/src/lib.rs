@@ -201,8 +201,8 @@ pub mod nft_dex {
             offer_demand.offers.retain(|x| x.offer_id != offer_id);
         }
 
-        Ok(())
     }
+    Ok(())
 }
 
 #[derive(Accounts)]
