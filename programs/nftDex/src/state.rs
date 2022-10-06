@@ -8,14 +8,6 @@ pub struct OfferCreateAccount {
     pub bump: u8,
 }
 
-impl OfferCreateAccount {
-    
-}
-
-impl OfferCreateAccount {
-    
-}
-
 #[account]
 pub struct OfferSupplyAccount {
     pub offers: Vec<OfferSupplyItem>,
